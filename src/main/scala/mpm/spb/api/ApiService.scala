@@ -1,17 +1,12 @@
 package mpm.spb.api
 
-import akka.actor.{ActorRefFactory, Props, Actor}
-import mpm.spb.domain.{ReplyText, CreateCall}
+import akka.actor.{Actor, Props}
 import mpm.spb.domain.Twilio._
+import mpm.spb.domain.{CreateCall, ReplyText}
 import mpm.spb.util.RouteHandlers
 import spray.http.FormData
 import spray.http.MediaTypes._
 import spray.routing._
-import spray.httpx.encoding._
-import spray.httpx.unmarshalling._
-import spray.httpx.unmarshalling.FromRequestUnmarshaller
-import spray.httpx.marshalling._
-import spray.httpx
 
 /**
   * Created by Michael on 27/04/2016.

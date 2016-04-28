@@ -8,7 +8,8 @@ import mpm.spb.domain.Support.SupportMember
 object MockSupport {
 
   val team = List(
-    SupportMember("Michael", "Patterson-Muir", "XXXXX")
+    SupportMember("Patrick", "Cunningham", "XXXX"),
+    SupportMember("Michael", "Patterson-Muir", "XXXX")
   )
 
 
