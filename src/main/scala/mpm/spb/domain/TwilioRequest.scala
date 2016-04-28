@@ -6,5 +6,5 @@ package mpm.spb.domain
 sealed abstract class TwilioRequest
 
 case class CreateCall() extends TwilioRequest
-case class CreateText() extends TwilioRequest
+case class ReplyText(body: String, from: String) extends TwilioRequest
 
