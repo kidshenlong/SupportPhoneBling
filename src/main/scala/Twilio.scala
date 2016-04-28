@@ -16,7 +16,7 @@ object Twilio {
 
   val AUTH_TOKEN = ???
 
-  def main(args: Array[String]) = {
+  def main2(args: Array[String]) = {
 
 
 
